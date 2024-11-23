@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+input {
+    @apply border-2 h-10 rounded-full;
+    /* border-color: #1d1e78; */
+}
+
+.btn {
+    background-color: #1d1e78;
+}
+
+label {
+    color: #1d1e78;
+    @apply font-bold text-xl;
+}
